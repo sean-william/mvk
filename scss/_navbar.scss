@@ -12,13 +12,28 @@
     @include heading-font;
   }
   .navbar-brand {
-    color: $primary;
-    @include script-font;
-    &.active,
-    &:active,
-    &:focus,
-    &:hover {
-      color: darken($primary, 10%);
+    // color: $primary;
+    // @include script-font;
+    // &.active,
+    // &:active,
+    // &:focus,
+    // &:hover {
+    //   color: darken($primary, 10%);
+    // }
+    display: flex;
+    flex-basis: auto;
+    flex: 1;
+    position: relative;
+    color: transparent !important;
+    &:before {
+      content: '';
+      background: url('../Logo3.png') no-repeat;
+      background-size: contain;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
     }
   }
   .navbar-nav {
