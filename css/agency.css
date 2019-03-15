@@ -99,6 +99,12 @@ img::-moz-selection {
   background: transparent;
 }
 
+#uline {
+  border-bottom: 1px solid grey;
+  width: 7.77%;
+  margin: auto;
+}
+
 #mainNav {
   background-color: #212529;
 }
