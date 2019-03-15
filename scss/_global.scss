@@ -35,6 +35,13 @@ section {
     font-size: 40px;
     margin-top: 0;
     margin-bottom: 15px;
+    &.heading-underline::after {
+      content: ' ';
+      display: block;
+      width: 7.77%;
+      border-bottom: 1px solid grey;
+      margin: 1rem auto 1.5rem;
+    }
   }
   h3.section-subheading {
     font-size: 16px;
