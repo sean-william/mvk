@@ -1,0 +1,36 @@
+// Styling for the porthead
+header.porthead1 {
+  text-align: center;
+  color: black;
+  background-image: url('../img/header/h1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  
+}
+@media(min-width:768px) {
+  header.porthead1 {
+    text-align: left;
+    .intro-text {
+      padding-top: 150px;
+      padding-bottom: 100px;
+      .intro-lead-in {
+        font-size: 40px;
+        font-style: italic;
+        line-height: 40px;
+        margin-bottom: 25px;
+        @include serif-font;
+      }
+      .intro-heading {
+        font-size: 75px;
+        font-weight: 600;
+        line-height: 75px;
+        margin-bottom: 20px;
+        @include heading-font;
+      }
+    }
+  }
+}
