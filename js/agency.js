@@ -10,6 +10,10 @@
           $('html, body').animate({
             scrollTop: (target.offset().top - 54)
           }, 1000, "easeInOutExpo");
+          if ($(this).is('.dropdown-toggle')) {
+            $(this).closest('.dropdown').toggleClass('show');
+            $(this).next('.dropdown-menu').toggleClass('show');
+          }
           return false;
         }
       }
@@ -17,7 +21,9 @@
   
     // Closes responsive menu when a scroll trigger link is clicked
     $('.js-scroll-trigger').click(function() {
-      $('.navbar-collapse').collapse('hide');
+      if (!$(this).is('.dropdown-toggle')) {
+        $('.navbar-collapse').collapse('hide');
+      }
     });
   
     // Activate scrollspy to add active class to navbar items on scroll

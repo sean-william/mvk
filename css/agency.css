@@ -162,6 +162,15 @@ img::-moz-selection {
   color: #fed136;
 }
 
+#mainNav .navbar-nav .nav-item .nav-link.dropdown-item {
+  padding: .25rem 1.5rem;
+}
+
+#mainNav .navbar-nav .nav-item.dropdown > .dropdown-menu {
+  background-color: inherit;
+  border: none;
+}
+
 #mainNav > .container,
 #mainNav > .container-fluid {
   -webkit-box-align: normal;
@@ -182,6 +191,18 @@ img::-moz-selection {
     font-size: 1.75em;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
+  }
+  #mainNav .navbar-nav .nav-item > .dropdown-menu.show {
+    display: none;
+  }
+  #mainNav .navbar-nav .nav-item:hover > .dropdown-menu {
+    display: block;
+    margin: 0;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+  }
+  #mainNav .navbar-nav .nav-item:hover > .dropdown-menu .nav-link {
+    color: #212529;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
     padding: 1.1em 1em !important;
