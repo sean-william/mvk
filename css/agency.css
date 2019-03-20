@@ -430,10 +430,10 @@ header.graphhead {
   padding-bottom: 100px;
 }
 
-header.texthead {
+header.plashead {
   text-align: center;
   color: black;
-  background-image: url("../img/header/h1.jpg");
+  background-image: url("../img/header/h2.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -442,22 +442,22 @@ header.texthead {
   padding-bottom: 100px;
 }
 
-header.plashead {
+header.texthead {
   text-align: center;
   color: black;
-  background-image: url("../img/header/h1.jpg");
+  background-image: url("../img/header/h3.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-  padding-top: 150px;
-  padding-bottom: 100px;
+  padding-top: 300px;
+  padding-bottom: 200px;
 }
 
 header.ttrchead {
   text-align: center;
   color: black;
-  background-image: url("../img/header/h1.jpg");
+  background-image: url("../img/header/h4.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -469,7 +469,7 @@ header.ttrchead {
 header.cardhead {
   text-align: center;
   color: black;
-  background-image: url("../img/header/h1.jpg");
+  background-image: url("../img/header/h5.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -481,7 +481,7 @@ header.cardhead {
 header.branhead {
   text-align: center;
   color: black;
-  background-image: url("../img/header/h1.jpg");
+  background-image: url("../img/header/h6.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -493,7 +493,19 @@ header.branhead {
 header.digmhead {
   text-align: center;
   color: black;
-  background-image: url("../img/header/h1.jpg");
+  background-image: url("../img/header/h7.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+header.hsechead {
+  text-align: center;
+  color: black;
+  background-image: url("../img/header/h8.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -505,7 +517,7 @@ header.digmhead {
 header.hdiehead {
   text-align: center;
   color: black;
-  background-image: url("../img/header/h1.jpg");
+  background-image: url("../img/header/h9.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
