@@ -53,6 +53,7 @@
       &.dropdown > .dropdown-menu {
         background-color: inherit;
         border: none;
+        display: block;
       }
     }
   }
@@ -78,7 +79,7 @@
     }
     .navbar-nav {
       .nav-item {
-        > .dropdown-menu.show {
+        &.dropdown > .dropdown-menu {
           display: none;
         }
         &:hover > .dropdown-menu {
