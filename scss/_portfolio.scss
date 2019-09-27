@@ -57,6 +57,9 @@
         @include serif-font;
       }
     }
+    &.no-padding {
+      padding: 0;
+    }
   }
   * {
     z-index: 2;
