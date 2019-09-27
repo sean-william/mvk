@@ -106,8 +106,12 @@ img::-moz-selection {
 
 //Seperating Line
 #uline{
-  
   border-bottom: 1px solid grey;
   width:7.77%;
   margin:auto;
+}
+
+.no-padding {
+  padding: 0;
+  overflow-x: hidden;
 }
