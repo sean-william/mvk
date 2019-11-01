@@ -911,3 +911,31 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   left: 0;
   right: 0;
 }
+
+dl.colon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+dl.colon > * {
+  -ms-flex-preferred-size: 50%;
+  flex-basis: 50%;
+}
+
+dl.colon dt {
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+
+dl.colon dd {
+  margin-left: auto;
+}
+
+dl.colon dd:before {
+  content: ':';
+  margin-left: -.5em;
+  margin-right: .2em;
+}

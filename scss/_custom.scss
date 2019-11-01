@@ -13,3 +13,26 @@
   left: 0;
   right: 0;
 }
+
+dl.colon {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+dl.colon > * {
+  flex-basis: 50%;
+}
+
+dl.colon dt {
+  align-self: flex-start;
+}
+
+dl.colon dd {
+  margin-left: auto;
+}
+
+dl.colon dd:before {
+  content: ':';
+  margin-left: -.5em;
+  margin-right: .2em;
+}
