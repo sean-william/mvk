@@ -445,7 +445,7 @@ header.masthead .intro-text .intro-subheading > span {
   background-color: #212529;
 }
 
-header.graphhead {
+header.hfhead {
   text-align: center;
   color: black;
   background-image: url("../img/header/h1.jpg");
@@ -453,7 +453,19 @@ header.graphhead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-  padding-top: 200px;
+  padding-top: 300px;
+  padding-bottom: 150px;
+}
+
+header.cfhead {
+  text-align: center;
+  color: black;
+  background-image: url("../img/header/hcft.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 300px;
   padding-bottom: 150px;
 }
 
@@ -496,13 +508,13 @@ header.cosmhead {
 header.ttrchead {
   text-align: center;
   color: black;
-  background-image: url("../img/landing.jpg");
+  background-image: url("../img/header/h1.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-  padding-top: 150px;
-  padding-bottom: 100px;
+  padding-top: 300px;
+  padding-bottom: 150px;
 }
 
 header.cardhead {
@@ -514,7 +526,7 @@ header.cardhead {
   background-position: center center;
   background-size: cover;
   padding-top: 250px;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
 }
 
 header.branhead {
@@ -526,7 +538,7 @@ header.branhead {
   background-position: center center;
   background-size: cover;
   padding-top: 250px;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
 }
 
 header.digmhead {
@@ -556,13 +568,13 @@ header.hsechead {
 header.hdiehead {
   text-align: center;
   color: black;
-  background-image: url("../img/landing.jpg");
+  background-image: url("../img/header/h1.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-  padding-top: 150px;
-  padding-bottom: 100px;
+  padding-top: 300px;
+  padding-bottom: 150px;
 }
 
 @media (min-width: 768px) {
